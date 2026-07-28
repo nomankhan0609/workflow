@@ -1,0 +1,37 @@
+{
+  "name": "Workflow — Freelancer Manager",
+  "short_name": "Workflow",
+  "description": "Freelancer Project Management App",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0D0F1A",
+  "theme_color": "#6C63FF",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/",
+      "description": "Go to Dashboard"
+    },
+    {
+      "name": "Clients",
+      "url": "/?view=clients",
+      "description": "View Clients"
+    }
+  ]
+}
