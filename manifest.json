@@ -8,30 +8,15 @@
   "theme_color": "#6C63FF",
   "orientation": "portrait-primary",
   "icons": [
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    { "src": "/icon-16.png", "sizes": "16x16", "type": "image/png" },
+    { "src": "/icon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/icon-48.png", "sizes": "48x48", "type": "image/png" },
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ],
   "categories": ["business", "productivity"],
   "shortcuts": [
-    {
-      "name": "Dashboard",
-      "url": "/",
-      "description": "Go to Dashboard"
-    },
-    {
-      "name": "Clients",
-      "url": "/?view=clients",
-      "description": "View Clients"
-    }
+    { "name": "Dashboard", "url": "/", "description": "Go to Dashboard" },
+    { "name": "Clients", "url": "/?view=clients", "description": "View Clients" }
   ]
 }
